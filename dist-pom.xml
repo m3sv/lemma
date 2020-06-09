@@ -71,20 +71,6 @@
         </repository>
     </distributionManagement>
 
-    <!-- ##################################################################################################### -->
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>4thline-repo</id>
-            <url>http://4thline.org/m2</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
-
-    <!-- ##################################################################################################### -->
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 

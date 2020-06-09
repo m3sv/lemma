@@ -1,10 +1,10 @@
 package example.citeplaintext;
 
-import com.sun.tools.javac.util.Pair;
 import org.seamless.xhtml.XHTML;
 import example.util.DocletTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import org.testng.internal.collections.Pair;
 
 import static org.testng.Assert.assertEquals;
 
@@ -38,8 +38,8 @@ public class CitingPlaintext extends DocletTest {
     @Test(dataProvider = "samples")
     public void process(Pair<String, String> sample) throws Exception {
 
-        XHTML output = getTemplatePipeline().execute(parseDocument(sample.fst));
-        assertEquals(getParser().print(output), getContent(sample.snd));
+        XHTML output = getTemplatePipeline().execute(parseDocument(sample.first()));
+        assertEquals(getParser().print(output), getContent(sample.second()));
 
     }
 }

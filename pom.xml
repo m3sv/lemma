@@ -60,10 +60,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>6</maven.compiler.source>
-        <maven.compiler.target>6</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
 
-        <seamless.version>1.1.1</seamless.version>
+        <seamless.version>1.1.2</seamless.version>
         <testng.version>6.8.21</testng.version>
         <args4j.version>2.32</args4j.version>
 
@@ -72,13 +72,6 @@
     <!-- ##################################################################################################### -->
 
     <repositories>
-        <repository>
-            <id>4thline-repo</id>
-            <url>http://4thline.org/m2</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
         <repository>
             <id>java.net-repo</id>
             <url>http://download.java.net/maven/2</url>
